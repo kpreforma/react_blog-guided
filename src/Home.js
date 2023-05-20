@@ -9,10 +9,15 @@ const Home = () => {
       {title: 'What really happened in Blackwater', body: 'lorem ipsum...', author: 'Arthur', id: 4}
    ])
 
+   const handleDelete = (id) => {
+      const newBlogs = blogs.filter(blog => blog.id !== id)
+      setBlog(newBlogs)
+   }
+
    return (
       <div className="Home">
-         <BlogList blogs={blogs} title="All Dialogues"/>
-         <BlogList blogs={blogs.filter((blog) => (blog.author === 'Arthur'))} title="Arthur's Dialogues"/>
+         <BlogList blogs={blogs} title="All Dialogues" handleDelete={handleDelete} />
+         {/* <BlogList blogs={blogs.filter((blog) => (blog.author === 'Arthur'))} title="Arthur's Dialogues"/> */}
       </div>
    );
 }
