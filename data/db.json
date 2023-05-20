@@ -1,0 +1,8 @@
+{
+   "Dialogs": [
+      {"title": "I have a plan!", "body": "lorem ipsum...", "author": "Dutch", "id": 1},
+      {"title": "Dear boy", "body": "lorem ipsum...", "author": "Hosea", "id": 2},
+      {"title": "Boah", "body": "lorem ipsum...", "author": "Arthur", "id": 3},
+      {"title": "What really happened in Blackwater", "body": "lorem ipsum...", "author": "Arthur", "id": 4}
+   ]
+}

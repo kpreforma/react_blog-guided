@@ -2,3 +2,4 @@ npx create-react-app rblog
 npm run start
 
 sfc (stateless functional component)
+npx json-server --watch data/db.json --port 8000
