@@ -1,7 +1,7 @@
 const Navbar = () => {
    return (
       <nav className="navbar">
-         <h1>REACT Project: Famous RDR2 Dialogues</h1>
+         <h1>RDR2 Dialogues in React</h1>
          <div className="links">
             <a href="/">Home</a>
             <a href="/create" style={
