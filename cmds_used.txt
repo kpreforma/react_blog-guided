@@ -1,0 +1,4 @@
+npx create-react-app rblog
+npm run start
+
+sfc (stateless functional component)
